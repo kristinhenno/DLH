@@ -1,0 +1,62 @@
+#aboutme{
+	float:left;
+	padding-top: 3%;
+width:28%;
+height:28%;
+display: inline-block;}
+
+#photo{
+	padding:0;
+}
+
+.aboutmetext{
+padding-top: 4.5%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif
+  color:#808285;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: bolder;
+  margin-bottom: 0;
+   color:#555;
+       line-height: 1.5;
+
+
+}
+ #principal{
+   font-family: "Open Sans", Helvetica, Arial, sans-serif
+  color:#808285;
+    font-size: 14px;
+color:#555;
+    line-height: 1.5;
+ }
+
+.aboutmetext2{
+padding-top: 1%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif
+  color:#808285;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: lighter;
+  color:#555;
+      line-height: 1.5;
+
+
+}
+
+#profile{
+	 color:#555;
+}
+#text{
+	width: 69%;
+    margin-left: 2.5%;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.link:hover{
+	text-decoration: none;
+}

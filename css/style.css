@@ -1,0 +1,250 @@
+
+#dlhtitle {
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #808285;
+    font-size: 30px;
+    display: inline-block;
+    font-weight: lighter;
+    text-decoration: none;
+    letter-spacing: 4px;
+    display: inline-block;
+}
+
+
+#design{display: inline-block;
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+      /*  letter-spacing: 4px;*/
+        color: #808285;
+        margin-left: 6px;
+        font-weight: lighter;
+}
+
+#title{
+  text-decoration: none;
+}
+
+#dlh {
+    text-align: left;
+    margin-top: 0%;
+    padding: 0;
+    padding-top: 1%;
+}
+
+#dlh1 {
+    text-align: left;
+    margin-top: 0%;
+    padding: 0;
+    padding-top: 1%;
+    border-bottom: 1px solid #E1E0E1;
+    padding-bottom: 1%;
+}
+
+#dlh2 {
+    margin-top: 3%;
+}
+
+
+#dlhd {
+    float: right;
+    text-align: right;
+    margin-top: -0.3%;
+    padding: 0;
+    margin-left: 8%;
+}
+
+.menuoption {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #808285;
+    font-size: 12px;
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 5% 0% 0.5% 3%;
+    text-decoration: none;
+}
+
+.menuoption:hover {
+    text-decoration: none;
+}
+
+.menuoptionfirst {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #808285;
+    font-size: 12px;
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 5% 0% 0.5% 11%;
+    text-decoration: none;
+}
+
+.menuoptionfirst:hover {
+    text-decoration: none;
+}
+
+.menuoptionlast {
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #808285;
+    font-size: 12px;
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 0% 0% 0.5% 3%;
+    text-decoration: none;
+}
+
+.menuoptionlast:hover {
+    text-decoration: none;
+}
+
+.slide {
+    position: relative;
+    margin: 0% auto;
+    width: 100%;
+    height: 900px;
+    background: white;
+}
+
+.slide ul li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.slide .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+}
+
+.slide .dots li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: background .5s, opacity .5s;
+    list-style: none;
+}
+
+.slide .dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+
+.slide .arrow {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background .5s, opacity .5s;
+}
+
+.slide .arrow .arrow-left,
+.slide .arrow .arrow-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: background .5s, opacity .5s;
+}
+
+.slide .arrow .arrow-left:hover,
+.slide .arrow .arrow-right:hover {
+    opacity: 1;
+}
+
+.slide .arrow .arrow-left {
+    left: 20px;
+    background: url("../img/arrow-left.png");
+}
+
+.slide .arrow .arrow-right {
+    right: 20px;
+    background: url("../img/arrow-right.png");
+}
+
+.footertext {
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #808285;
+    font-size: 10px;
+    /*  letter-spacing: 4px;*/
+    margin-top: 3%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 2% 0% 0% 0%;
+    font-size: 12px;
+    padding-bottom: 0;
+    padding-top: 3%;
+}
+
+#email {
+    text-decoration: none;
+    margin-left: 1%;
+    color: #808285;
+}
+
+#email:hover {
+    text-decoration: underline;
+    margin-left: 1%;
+    color: #808285;
+}
+
+.footertext2 {
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #808285;
+    font-size: 10px;
+    /*  letter-spacing: 4px;*/
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: -0.5% 0% 3% 0%;
+    font-size: 10px;
+}
+
+.socialmedia {
+    width: 24px;
+    color: #808285;
+    margin: -0.5% 0% 0% 0.6%;
+    display: inline-block;
+    float: right;
+    padding-right: 0;
+}
+
+#social {
+    margin-top: -4.8%;
+}
+
+#footerrow {
+    padding: 0;
+}
+
+#marginemail {
+    margin-bottom: 0;
+}
+
+.home:hover {
+    text-decoration: none;
+}
+
+.home {
+    text-decoration: none;
+}
