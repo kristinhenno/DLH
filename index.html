@@ -33,23 +33,53 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div id="dlh2" class="row">
-            <div class="slide">
-                <ul>
-                    <li data-bg="assets/1.jpg"></li>
-                    <li data-bg="assets/2.jpg"></li>
-                    <li data-bg="assets/3.jpg"></li>
-                    <li data-bg="assets/4.jpg"></li>
-                    <li data-bg="assets/5.jpg"></li>
-                    <li data-bg="assets/6.jpg"></li>
-                    <li data-bg="assets/7.jpg"></li>
-                    <li data-bg="assets/8.jpg"></li>
-                    <li data-bg="assets/9.jpg"></li>
-                    <li data-bg="assets/10.jpg"></li>
-                </ul>
-            </div>
-        </div>
+    <div id="carouselbox" class="container">
+         <div class="col-xs-12" id="slider1">
+                        <div class="col-sm-12" id="carousel-bounding-box">
+                          <div class="carousel slide carousel-fade col-offset-2" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                        <img src="assets/1.jpg"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                        <img src="assets/2.jpg"></div>
+
+                                    <div class="item" data-slide-number="3">
+                                        <img src="assets/3.jpg"></div>
+
+                                    <div class="item" data-slide-number="4">
+                                        <img src="assets/4.jpg"></div>
+
+                                    <div class="item" data-slide-number="5">
+                                        <img src="assets/5.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="6">
+                                        <img src="assets/6.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="7">
+                                        <img src="assets/7.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="8">
+                                        <img src="assets/8.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="9">
+                                        <img src="assets/9.jpg"></div>
+                                    
+                                    <div class="item" data-slide-number="10">
+                                        <img src="assets/10.jpg"></div>
+                                    
+                                </div>
+                                <!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span id="left" class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span id="right" class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
     </div>
     <div class="container">
         <div class="row">
@@ -76,16 +106,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
-    <script type="text/javascript">
-    $(function() {
-        $('.slide').slide({
-            'slideSpeed': 4000,
-            'isShowArrow': true,
-            'dotsEvent': 'mouseenter',
-            'isLoadAllImgs': true
-        });
-    });
-    </script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
     </script>
     <script src="js/index"></script>
