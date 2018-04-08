@@ -1,0 +1,220 @@
+.thumbnail{
+	width:64px;
+	height:35px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-radius: 0px;
+	border:white 0px solid;
+	display: inline-block;
+	padding: 0 0.5%;
+	margin-top: 2%;
+
+	  
+}
+
+.thumbnail:hover{
+	width:64px;
+	height:35px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-radius: 0px;
+	border:white 0px solid;
+	display: inline-block;
+	padding: 0 0.5%;
+	margin-top: 2%;
+
+	  
+}
+
+.item1{
+	margin-top:-0.7%;
+	margin-bottom: -1%;
+}
+
+.item2{
+	margin-top:2.5%;
+	margin-bottom: 8%;
+}
+/*.item{
+	margin-top: 4.5%;
+	margin-bottom: 4.5%;
+}
+*/
+#pub{
+	color:#555;
+}
+
+#pub1{
+	width:23%;
+	margin-right: 2.6%;
+	margin-bottom: 8%;
+}
+
+#pub2{
+	width:23%;
+	margin-right: 2.6%;
+		margin-bottom: 8%;
+}
+
+#pub3{
+	width:23%;
+	margin-right: 2.6%;
+		margin-bottom: 8%;
+}
+
+
+#pub4{
+	width:23%;
+		margin-bottom: 8%;
+}
+
+#ca{
+	width:100%;
+	margin-top: 40%;
+}
+
+#food{
+	width:100%;
+	margin-top: 40%;
+}
+
+#huff{
+	width:100%;
+	margin-top: 40%;
+}
+
+#house{
+	width:100%;
+	margin-top: 40%;
+}
+
+@media only screen and (max-width:550px) and (orientation: portrait) {
+#pub1{
+	width:46%;
+	margin-right: 2.6%;
+	margin-bottom: 0%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#pub2{
+	margin-top: 2%;
+	width:46%;
+	margin-right: 2.6%;
+		margin-bottom: 0%;
+}
+
+#pub3{
+	width:46%;
+	margin-right: 2.6%;
+		margin-bottom: -%;
+		margin-top: 0%;
+		margin-left: 2%;
+}
+
+
+#pub4{
+	width:46%;
+		margin-bottom: 8%;
+		margin-top: 0%;
+}
+
+#ca{
+	width:100%;
+	margin-top: 10%;
+}
+
+#food{
+	width:100%;
+	margin-top: 10%;
+}
+
+#huff{
+	width:100%;
+	margin-top: 10%;
+}
+
+#house{
+	width:100%;
+	margin-top: 10%;
+}
+
+}
+
+@media only screen and (max-width:700px) and (orientation: portrait) {
+  .carousel{
+    display: none;
+  }
+
+  #projectname{
+    float: none;
+    text-align: center;
+    display: block;
+    margin-top: 1%;
+  }
+
+  #mobilephotos{
+    display: block;
+
+  }
+
+  .mobile{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+
+}
+
+@media only screen and (max-width:420px) and (orientation: portrait) {
+	#pub1{
+	width:90%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+#pub2{
+	width:90%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+#pub3{
+width:90%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+
+#pub4{
+width:90%;
+	margin-bottom: 2%;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+#ca{
+	width:100%;
+	margin-top: 0%;
+}
+
+#food{
+	width:100%;
+	margin-top: 0%;
+}
+
+#huff{
+	width:100%;
+	margin-top: 0%;
+}
+
+#house{
+	width:100%;
+	margin-top: 0%;
+}
+
+}

@@ -1,12 +1,57 @@
+#mobilephotos{
+  display: none;
+}
+
+#dlhtitle {
+width: 80%;
+  margin-top: -13px;
+    padding-top: 0;
+    margin-bottom: -22px;
+}
+
+
+#design{display: inline-block;
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+      /*  letter-spacing: 4px;*/
+        color: #808285;
+        margin-left: 6px;
+        font-weight: lighter;
+}
+
+#title{
+  text-decoration: none;
+}
+
+#dlh {
+    text-align: left;
+    margin-top: 0%;
+    padding: 0;
+    padding-top: 1%;
+}
+
+#dlh1 {
+    text-align: left;
+    margin-top: 0%;
+    padding: 0;
+    padding-top: 1%;
+    border-bottom: 1px solid #E1E0E1;
+    padding-bottom: 1%;
+}
+
+#dlh2 {
+    margin-top: 3%;
+}
+
 #pic1{
 	width:48.5%;
-	margin-top: 3%;
+	margin-top: 2.5%;
 	position: relative;
 }
 
 #pic2{
 	width:48.5%;
-	margin-top: 3%;
+	margin-top: 2.5%;
 	margin-left: 2.8%;
 	position: relative;
 }
@@ -56,8 +101,8 @@
     position: absolute;
     text-align: center;
     bottom: -1px;
-    font-size: 12px; 
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+     font-family: 'Karla', sans-serif;
     background-color: white;
     width:102%;
     margin-left: -1%;
@@ -72,8 +117,8 @@
     position: absolute;
     text-align: center;
     bottom: -1px;
-    font-size: 12px; 
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+     font-family: 'Karla', sans-serif;
     background-color: white;
     width:102%;
     margin-left: -1%;
@@ -116,9 +161,15 @@ color:black;
 	padding: 0;
 }
 
+.item{
+  margin-top: 3%;
+  margin-bottom: 4.5%;
+}
+
+
 .thumbnail{
 	width:64px;
-	height:40px;
+	height:38px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	border-radius: 0px;
@@ -132,7 +183,7 @@ color:black;
 
 .thumbnail:hover{
 	width:64px;
-	height:40px;
+	height:38px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	border-radius: 0px;
@@ -144,7 +195,7 @@ color:black;
 
 .thumbnaillast{
 	width:64px;
-	height:40px;
+	height:38px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	border-radius: 0px;
@@ -159,15 +210,13 @@ color:black;
 
 .thumbnaillast:hover{
 		width:64px;
-	height:40px;
+	height:38px;
 	overflow-y: hidden;
 	overflow-x: hidden;
 	border-radius: 0px;
-	border:white 0px solid;
 	text-decoration: none;
 	cursor: pointer;
 	display: inline-block;
-	border:white 1px solid; 
 	padding: 0 0 0 0.5%; 
 }
 a{
@@ -191,7 +240,7 @@ background: none;
 }
 
 #main_area{
-	margin-top: 3%;
+	margin-top: 3.5%;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -262,7 +311,7 @@ background: none;
 }
 
 .footertext3{
-   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: 'Karla', sans-serif;
     color: #808285;
     font-size: 10px;
     /*  letter-spacing: 4px;*/
@@ -288,7 +337,7 @@ background: none;
 }
 
 .footertext4 {
-   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   font-family: 'Karla', sans-serif;
     color: #808285;
     font-size: 10px;
     /*  letter-spacing: 4px;*/
@@ -301,12 +350,227 @@ background: none;
 
 #projectname{
 	display: inline-block;
-	      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	      font-family: 'Karla', sans-serif;
     color: #808285;
     float: left;
     margin-left: -1.2%;
     margin-top: 4.2%;
      font-size: 16px;
 
+
+
 }
 
+@media only screen and (max-width:1143px) {
+
+#dlhd{
+  text-align: center;
+  margin-left: 0;
+
+}
+
+#menu{
+  margin-left: -1.5%;
+
+}
+
+#dlh{
+  text-align: center;
+  margin-top: 1%;
+}
+
+.footertext{
+  display: block;
+  text-align: center;
+}
+
+#email{
+  margin-top: 0.5%;
+  padding-top: 0;
+}
+.footertext2{
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.socialmedia {
+  text-align: center;
+  float: none;
+
+  }
+
+  #copyright{
+    display: block;
+  }
+
+  #social{
+    display: block;
+    margin: 0;
+    float: none;
+    text-align: center;
+  }
+
+#carouselbox{
+  width: 90%;
+}
+
+
+}
+
+@media only screen and (max-width:990px) {
+
+#dlhd{
+  text-align: center;
+  margin-left: 0;
+
+}
+
+#menu{
+  margin-left: -1.5%;
+
+}
+
+#dlh{
+  text-align: center;
+  margin-top: 2%;
+}
+
+.footertext{
+  display: block;
+  text-align: center;
+}
+
+#email{
+  margin-top: 0.5%;
+  padding-top: 0;
+}
+.footertext2{
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+}
+.footertext3{
+  display: block;
+  text-align: center;
+}
+
+.footertext4{
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+}
+.footertext4{
+  display: block;
+  text-align: center;
+}
+#email{
+  margin-top: 0.5%;
+  padding-top: 0;
+}
+.footertext3{
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+}
+
+
+.socialmedia {
+  text-align: center;
+  float: none;
+
+  }
+
+  #copyright{
+    display: block;
+  }
+
+  #social{
+    display: block;
+    margin: 0;
+    float: none;
+    text-align: center;
+  }
+
+#carouselbox{
+  width: 90%;
+}
+
+.hor{
+  margin-top: -17%;
+}
+
+#sbtext{
+  margin-right: 3%;
+}
+}
+
+@media only screen and (max-width:700px) and (orientation: portrait) {
+  .carousel{
+    display: none;
+  }
+
+  #projectname{
+    float: none;
+    text-align: center;
+    display: block;
+    margin-top: 1%;
+  }
+
+  #mobilephotos{
+    display: block;
+
+  }
+
+  .mobile{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+
+}
+
+@media only screen and (max-width:550px) and (orientation: portrait) {
+#pic1{
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+
+#pic2{
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+ #pic3{
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+  #pic4 {
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+  #pic5{
+  width:90%;
+   margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+.footertext3{
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+}
+}

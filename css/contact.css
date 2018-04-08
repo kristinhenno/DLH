@@ -1,0 +1,83 @@
+#contact{
+	color:#555;
+}
+
+#contactpic{
+	width: 106%;
+	margin-top: 8%;
+}
+
+#contactbox{
+	padding: 0;
+}
+
+#infobox{
+
+    margin-top: 8%;
+    margin-left: 6%;
+    line-height: 2;
+    padding-top: 4.5%;
+  font-family: 'Karla', sans-serif;
+
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block;
+   color:#555;
+       line-height: 3;
+}
+
+@media only screen and (max-width:1300px) and (orientation: landscape) {
+  #infobox{
+
+
+    margin-top: 4%;
+    line-height: 2;
+    padding-top: 4.5%;
+  font-family: 'Karla', sans-serif;
+
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+   color:#555;
+       line-height: 2;
+}
+#contactpic{
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+
+}
+@media only screen and (max-width:550px) and (orientation: portrait) {
+
+  #contact{
+  color:#555;
+}
+
+#contactpic{
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+#contactbox{
+  padding: 0;
+}
+
+#infobox{
+  text-align: center;
+
+    margin-top: 4%;
+    line-height: 2;
+    padding-top: 4.5%;
+  font-family: 'Karla', sans-serif;
+
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+   color:#555;
+       line-height: 2;
+}
+
+}

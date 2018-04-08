@@ -11,9 +11,9 @@ display: inline-block;}
 
 .aboutmetext{
 padding-top: 4.5%;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif
+  font-family: 'Karla', sans-serif;
   color:#808285;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
   font-weight: bolder;
@@ -24,29 +24,31 @@ padding-top: 4.5%;
 
 }
  #principal{
-   font-family: "Open Sans", Helvetica, Arial, sans-serif
+ font-family: 'Karla', sans-serif;
   color:#808285;
-    font-size: 14px;
+    font-size: 18px;
 color:#555;
     line-height: 1.5;
+        margin-top: 4%;
  }
 
 .aboutmetext2{
 padding-top: 1%;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif
+    font-family: 'Karla', sans-serif;
   color:#808285;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   font-weight: lighter;
   color:#555;
-  line-height: 1.5;
+  line-height: 2;
 
 
 }
-#prof{
+#menu{
    color:#555;
 }
+
 #profile{
 	 color:#555;
 }
@@ -61,4 +63,98 @@ padding-top: 1%;
 
 .link:hover{
 	text-decoration: none;
+}
+
+.menuoption {
+  font-family: 'Karla', sans-serif;
+    color: #808285;
+    font-size: 14px;
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 5% 0% 0.5% 3%;
+    text-decoration: none;
+}
+
+.menuoption:hover {
+    text-decoration: none;
+     color:#555;
+}
+
+.menuoptionfirst {
+   font-family: 'Karla', sans-serif;
+    color: #808285;
+    font-size: 14px;
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 5% 0% 0.5% 11%;
+    text-decoration: none;
+}
+
+.menuoptionfirst:hover {
+    text-decoration: none;
+     color:#555;
+}
+
+.menuoptionlast {
+  font-family: 'Karla', sans-serif;
+    color: #808285;
+    font-size: 14px;
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 0% 0% 0.5% 3%;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1200px) {
+  .aboutmetext2{
+    font-size: 14px;
+  }
+
+
+}
+
+@media only screen and (max-width:990px) {
+  .aboutmetext2{
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+
+}
+
+@media only screen and (max-width:950px) {
+  .aboutmetext2{
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (max-width:550px) and (orientation: portrait) {
+
+#aboutme{
+  width:90%;
+  display: block;
+  float: none;
+  text-align: center;
+  margin-left: 5%;
+}
+
+  .aboutmetext2{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 5%;
+  }
+   #principal{
+     margin-left: 5%;
+     margin-top: 5%;
+   }
+
+   #text{
+    width:90%;
+   }
+
 }

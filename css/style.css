@@ -1,13 +1,9 @@
 
 #dlhtitle {
-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    color: #808285;
-    font-size: 30px;
-    display: inline-block;
-    font-weight: lighter;
-    text-decoration: none;
-    letter-spacing: 4px;
-    display: inline-block;
+width: 80%;
+  margin-top: -13px;
+    padding-top: 0;
+    margin-bottom: -22px;
 }
 
 
@@ -54,9 +50,9 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .menuoption {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Karla', sans-serif;
     color: #808285;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;
@@ -70,9 +66,9 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .menuoptionfirst {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   font-family: 'Karla', sans-serif;
     color: #808285;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;
@@ -86,9 +82,9 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .menuoptionlast {
-   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Karla', sans-serif;
     color: #808285;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;
@@ -107,11 +103,12 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 
 #carousel-bounding-box{
   padding:0;
+      margin-top: -0.5%;
 }
 
 #carouselbox{
   padding:0;
-  margin-top: 3%;
+  margin-top: 2.8%;
 }
 .footertext {
    font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -228,4 +225,59 @@ background: none;
 
 #right{
     margin-right: -48%;
+}
+
+@media only screen and (max-width:1143px) {
+
+#dlhd{
+  text-align: center;
+  margin-left: 0;
+
+}
+
+#menu{
+  margin-left: -1.5%;
+
+}
+
+#dlh{
+  text-align: center;
+  margin-top: 1%;
+}
+
+.footertext{
+  display: block;
+  text-align: center;
+}
+
+#email{
+  margin-top: 0.5%;
+  padding-top: 0;
+}
+.footertext2{
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.socialmedia {
+  text-align: center;
+  float: none;
+
+  }
+
+  #copyright{
+    display: block;
+  }
+
+  #social{
+    display: block;
+    margin: 0;
+    float: none;
+    text-align: center;
+  }
+
+#carouselbox{
+  width: 90%;
+}
 }
