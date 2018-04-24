@@ -1,9 +1,14 @@
 
 #dlhtitle {
-width: 80%;
+width: 69%;
   margin-top: -13px;
     padding-top: 0;
-    margin-bottom: -22px;
+    margin-bottom: 0px;
+}
+
+@font-face {
+    font-family: CarrigRough-Regular;
+    src: url("../assets/font/CarrigRough-Regular.woff") format("opentype");
 }
 
 
@@ -19,6 +24,7 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 #title{
   text-decoration: none;
 }
+
 
 #dlh {
     text-align: left;
@@ -44,19 +50,20 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 #dlhd {
     float: right;
     text-align: right;
-    margin-top: -0.3%;
+    margin-top: 0.3%;
     padding: 0;
     margin-left: 8%;
 }
 
 .menuoption {
-  font-family: 'Karla', sans-serif;
+  font-family: CarrigRough-Regular;
     color: #808285;
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;
     margin: 5% 0% 0.5% 3%;
+  letter-spacing: 2px;
     text-decoration: none;
 }
 
@@ -66,10 +73,11 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .menuoptionfirst {
-   font-family: 'Karla', sans-serif;
+   font-family: CarrigRough-Regular;
     color: #808285;
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 0.5%;
+    letter-spacing: 2px;
     margin-bottom: -0.5%;
     display: inline-block;
     margin: 5% 0% 0.5% 11%;
@@ -82,9 +90,10 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .menuoptionlast {
-  font-family: 'Karla', sans-serif;
+  font-family: CarrigRough-Regular;
     color: #808285;
-    font-size: 14px;
+    letter-spacing: 2px;
+    font-size: 11px;
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;
@@ -103,14 +112,13 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 
 #carousel-bounding-box{
   padding:0;
-      margin-top: -0.5%;
+      margin-top: 0%;
 }
 
 #carouselbox{
   padding:0;
-  margin-top: 2.8%;
-}
-.footertext {
+  margin-top: 0.75%;
+}.footertext {
    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     color: #808285;
     font-size: 10px;
@@ -124,63 +132,29 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
     padding-top: 3%;
 }
 
-#email {
-    text-decoration: none;
-    margin-left: 1%;
-    color: #808285;
-}
-
-#email:hover {
-    text-decoration: underline;
-    margin-left: 1%;
-    color: #808285;
-}
 
 .footertext2 {
-   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   font-family: CarrigRough-Regular;
     color: #808285;
     font-size: 10px;
+    letter-spacing: 2px;
     /*  letter-spacing: 4px;*/
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;
-    margin: -0.5% 0% 3% 0%;
+    margin: 3% 0% 3% 0%;
     font-size: 10px;
 }
 
-.socialmedia {
-    width: 24px;
-    color: #808285;
-    margin: -0.5% 0% 0% 0.6%;
-    display: inline-block;
-    float: right;
-    padding-right: 0;
-}
-
-#social {
-    margin-top: -4.8%;
-}
-
-#footerrow {
-    padding: 0;
-}
-
-#marginemail {
-    margin-bottom: 0;
-}
-
-.home:hover {
-    text-decoration: none;
-}
-
-.home {
-    text-decoration: none;
+#footerrow{
+      padding-left: 0;
 }
 
 a:hover{
 text-decoration: none;
 }
 a.left.carousel-control{
+
 background: none;
 }
 a.right.carousel-control{
@@ -194,6 +168,10 @@ background: none;
   opacity: 0;
   transition-property: opacity;
 
+}
+
+.carousel-control{
+  opacity:0.7;
 }
 
 .carousel-fade .carousel-inner .active {
@@ -221,6 +199,12 @@ background: none;
     }
 #left{
         margin-left: -48%;
+}
+#left1 {
+    width: 20%;
+    margin-top: 200%;
+    margin-left: -26%;
+    opacity: 1;
 }
 
 #right{
