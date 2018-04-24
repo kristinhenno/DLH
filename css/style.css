@@ -200,12 +200,11 @@ background: none;
 #left{
         margin-left: -48%;
 }
-#left1 {
-    width: 15%;
-    margin-top: 210%;
-    margin-left: -26%;
+   #left1 {
+    width: 23%;
+    margin-top: 170%;
+    margin-left: -82%;
     opacity: 1;
-}
 
 #right{
     margin-right: -48%;
