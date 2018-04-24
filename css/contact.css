@@ -3,8 +3,8 @@
 }
 
 #contactpic{
-	width: 106%;
-	margin-top: 8%;
+	width: 92.5%;
+	margin-top: 2.5%;
 }
 
 #contactbox{
@@ -13,19 +13,66 @@
 
 #infobox{
 
-    margin-top: 8%;
+    margin-top: 4%;
     margin-left: 6%;
     line-height: 2;
     padding-top: 4.5%;
-  font-family: 'Karla', sans-serif;
+  font-family: CarrigRough-Regular;
 
-  font-size: 18px;
+        color: #808285;
+
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-   color:#555;
-       line-height: 3;
+       line-height: 4;
+        letter-spacing: 2px;
 }
 
+#number{
+  display: inline-block;
+  text-align: center;
+   font-size: 24px;
+   margin-right: 1%;
+    letter-spacing: 2px;
+}
+
+#address{
+  text-align: center;
+  margin-bottom: -2%;
+   margin-top:-2%;
+ letter-spacing: 6px;
+}
+}
+
+#dinero{
+  display: inline-block;
+   text-align: center;
+    letter-spacing: 2px;
+}
+
+#zip{
+    display: inline-block;
+   text-align: center;
+    font-size: 24px;
+     letter-spacing: 2px;
+
+}
+
+.socialmedia{
+  width:30px;
+  text-align: center;
+
+  }
+
+  #social{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    margin-bottom: -2%;
+    letter-spacing: 2px;
+  }
 @media only screen and (max-width:1300px) and (orientation: landscape) {
   #infobox{
 
