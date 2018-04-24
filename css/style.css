@@ -151,6 +151,18 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 11px;
 }
 
+.footertext4 {
+   font-family: CarrigRough-Regular;
+    color: #808285;
+    font-size: 11px;
+    letter-spacing: 2px;
+    /*  letter-spacing: 4px;*/
+    margin-top: 0.5%;
+    margin-bottom: -0.5%;
+    display: inline-block;
+    margin: 3% 0% 3% 0%;
+    font-size: 11px;
+}
 #footerrow{
       padding-left: 0;
 }
