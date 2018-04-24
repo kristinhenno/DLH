@@ -11,6 +11,11 @@ width: 69%;
     src: url("../assets/font/CarrigRough-Regular.woff") format("opentype");
 }
 
+@font-face {
+    font-family: Verdana;
+    src: url("../assets/font/Verdana.woff") format("opentype");
+}
+
 
 #design{display: inline-block;
 font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -201,15 +206,22 @@ background: none;
         margin-left: -48%;
 }
    #left1 {
-    width: 23%;
+    width: 18%;
     margin-top: 170%;
     margin-left: -82%;
     opacity: 1;
+  }
 
 #right{
     margin-right: -48%;
 }
 
+ #right1{
+    width: 18%;
+    margin-top: 170%;
+    margin-right: -82%;
+    opacity: 1;
+  }
 @media only screen and (max-width:1143px) {
 
 #dlhd{
