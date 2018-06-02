@@ -536,6 +536,99 @@ background: none;
 }
 
 
+@media only screen and (max-width:812px) and (orientation: landscape) {
+  #pic1{
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+
+#pic2{
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+ #pic3{
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+  #pic4 {
+  width:90%;
+  margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+  #pic5{
+  width:90%;
+   margin-top:4%;
+  text-align: center;
+  display: block;
+  margin-left: 5%;
+}
+.footertext3{
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#beachhouse{
+      margin-top: -3.5%;
+}
+
+#projectname{
+  display: none;
+}
+
+#mobilephotos{
+  margin-top: -3%;
+  margin-bottom: 4%;
+}
+
+.footertext4{
+  margin-top: 4%;
+  font-size: 10px;
+}
+.carousel{
+    display: none;
+  }
+
+  .mobile{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+
+  .hide-bullets{
+    display: none;
+  }
+ .carousel{
+    display: none;
+  }
+
+  #mobilephotos{
+    display: block;
+
+
+  }
+
+  .mobile{
+    width:100%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 @media only screen and (max-width:770px) and (orientation: portrait) {
 #pic1{
   width:90%;
