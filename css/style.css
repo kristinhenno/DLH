@@ -304,17 +304,20 @@ background: none;
 
 .menuoption{
   margin-left: 2%;
+  font-size: 10px;
 }
 
 .menuoptionlast{
   margin-left: 2%;
   margin-bottom: 2%;
+    font-size: 10px;
 }
 
  .footertext2{
   display: block;
   text-align: center;
   margin-top: 5%;
+  font-size: 10px;
 }
 #carouselbox{
   width:90%;
