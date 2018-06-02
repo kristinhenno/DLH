@@ -179,10 +179,10 @@
 
 }
 
-@media only screen and (max-width:700px) and (orientation: portrait) {
+@media only screen and (max-width:770px) and (orientation: portrait) {
 
 	#ca{
-		margin-top: -1.5%;
+		margin-top: -0.5%;
 	}
   .carousel{
     display: none;

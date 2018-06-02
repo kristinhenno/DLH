@@ -203,7 +203,7 @@ color: #808285;
 }
 
 }
-@media only screen and (max-width:550px) and (orientation: portrait) {
+@media only screen and (max-width:770px) and (orientation: portrait) {
 
 #aboutme{
   width:90%;
