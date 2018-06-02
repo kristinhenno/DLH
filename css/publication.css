@@ -180,6 +180,10 @@
 }
 
 @media only screen and (max-width:700px) and (orientation: portrait) {
+
+	#ca{
+		margin-top: -1.5%;
+	}
   .carousel{
     display: none;
   }
@@ -189,6 +193,7 @@
     text-align: center;
     display: block;
     margin-top: 1%;
+    display: none;
   }
 
   #mobilephotos{
@@ -202,9 +207,59 @@
     margin-top: 3%;
     margin-bottom: 1%;
   }
+  #pub1{
+  	width:90%;
+  	margin-left: 5%;
+  	 margin-bottom: 1%;
+  	 margin-top: 1%;
+  }
+   #pub2{
+  	width:90%;
+  	margin-left: 5%;
+  	 margin-bottom: 1%;
+  	 margin-top: 1%;
+  }
 
+ #pub3{
+  	width:90%;
+  	margin-left: 5%;
+  	 margin-bottom: 1%;
+  	 margin-top: 1%;
+  }
+
+ #pub4{
+  	width:90%;
+  	margin-left: 5%;
+  	 margin-bottom: 1%;
+  	 margin-top: 1%;
+  }
+
+ #pub5{
+  	width:90%;
+  	margin-left: 5%;
+  	 margin-bottom: 1%;
+  	 margin-top: 1%;
+  }
+
+ #pub6{
+  	width:90%;
+  	margin-left: 5%;
+  	 margin-bottom: 1%;
+  	 margin-top: 1%;
+  }
+
+#food{
+	margin-top: 3%;
 }
 
+#huff{
+	margin-top: 3%;
+}
+#house{
+	margin-top: 3%;
+}
+}
+/*
 @media only screen and (max-width:420px) and (orientation: portrait) {
 	#pub1{
 	width:90%;
@@ -255,4 +310,4 @@ width:90%;
 	margin-top: 0%;
 }
 
-}
+}*/

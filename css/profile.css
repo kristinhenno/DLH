@@ -139,19 +139,35 @@ color: #808285;
 }
 
 @media only screen and (max-width:1200px) {
-  .aboutmetext2{
-    font-size: 14px;
+  #principal{
+        margin-top: 3.2%;
   }
-
+  .aboutmetext2{
+    font-size: 12px;
+  }
+#menu{
+  margin-left: -12%;
+}
 
 }
 
-@media only screen and (max-width:990px) {
+@media only screen and (max-width:992px) {
   .aboutmetext2{
     font-size: 12px;
     line-height: 1.5;
   }
+  #aboutme{
+  width:50%;
+  display: block;
+  float: none;
+  text-align: center;
+  margin-left: 5%;
+}
 
+#text {
+    width: 41.5%;
+    margin-left: 3%;
+}
 
 }
 
@@ -163,6 +179,30 @@ color: #808285;
 
 }
 
+
+@media only screen and (max-width:768px) {
+  .aboutmetext2{
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  #aboutme{
+  width:90%;
+  display: block;
+  float: none;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#text {
+    width: 41.5%;
+    margin-left: 3%;
+}
+
+  .footertext2 {
+  margin-top:1%;
+}
+
+}
 @media only screen and (max-width:550px) and (orientation: portrait) {
 
 #aboutme{
@@ -180,11 +220,25 @@ color: #808285;
   }
    #principal{
      margin-left: 5%;
-     margin-top: 5%;
-   }
+     font-size: 14px;
+    padding-top: 3%;
 
+   }
+ #affilation{
+  font-size: 14px;
+    margin-left: 5%;
+
+}
+
+.affiliates{
+    margin-left: 5%;
+}
    #text{
     width:90%;
+    margin-bottom: -3%;
    }
+  .footertext2 {
+  margin-top:1%;
+}
 
 }

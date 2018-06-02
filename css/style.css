@@ -234,7 +234,94 @@ background: none;
     margin-right: -82%;
     opacity: 1;
   }
-@media only screen and (max-width:1143px) {
+
+  @media only screen and (max-width:1200px) {
+  #principal{
+        margin-top: 3.2%;
+  }
+  .aboutmetext2{
+    font-size: 12px;
+  }
+
+#menu{
+  margin-left: -12%;
+}
+
+}
+
+@media only screen and (max-width:1001px) and (orientation: portrait) {
+      #dlh{
+        margin-left: 12.5%;
+        margin-top: 1%;
+}
+
+    #dlhd{float: center;
+    text-align: center;
+    margin-top: -3.7%;
+    margin-left: -2%;
+    margin-right: 0;
+    padding: 0;
+  
+  }
+}
+
+@media only screen and (max-width:993px) {
+      #dlh{
+        margin-left: 12.5%;
+        margin-top: 1%;
+}
+
+    #dlhd{float: center;
+    text-align: center;
+    margin-top: -3.7%;
+    margin-left: -2%;
+    margin-right: 0;
+    padding: 0;
+  
+  }
+  .footertext2{
+  display: block;
+  text-align: center;
+}
+}
+@media only screen and (max-width:765px){
+#dlhtitle{
+  width:90%;
+ margin:0;
+    margin-top: 1%;
+   
+  }
+  #dlh{
+    margin:0;
+     text-align: center;
+  }
+#menu{
+  margin: 0;
+  margin-left: 2.5%;
+  text-align: center;
+
+}
+
+.menuoption{
+  margin-left: 2%;
+}
+
+.menuoptionlast{
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+ .footertext2{
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+}
+#carouselbox{
+  width:90%;
+     margin-left: 5%;
+}
+}
+/*@media only screen and (max-width:1143px) {
 
 #dlhd{
   text-align: center;
@@ -287,4 +374,4 @@ background: none;
 #carouselbox{
   width: 90%;
 }
-}
+}*/
