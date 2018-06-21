@@ -3,7 +3,7 @@
 }
 
 #contactpic{
-	width: 90%;
+	width: 121%;
 	margin-top: 2.5%;
 }
 
@@ -13,8 +13,9 @@
 
 #infobox{
 
-    margin-top: 4%;
-    margin-left: 6%;
+    margin-top: 7%;
+    margin-left: 8%;
+    padding-right: 0;
     line-height: 2;
     padding-top: 4.5%;
   font-family: CarrigRough-Regular;
@@ -78,9 +79,9 @@
 @media only screen and (max-width:1300px) and (orientation: landscape) {
 
 #contactpic{
-  width: 90%;
- /* margin-top: 8%;*/
-/*  margin-left: 5%;*/
+  width: 121%;
+  margin-top: 2.5%;
+  margin-left: -10%;
 }
 
 
@@ -93,9 +94,11 @@
   margin-left: 5%;
 }
 #infobox{
-  margin: 0;
-  font-size: 14px;
-  padding-top: 2%;
+   margin-top: 7%;
+    margin-left: 8%;
+    padding-right: 0;
+    line-height: 2;
+    padding-top: 4.5%;
 
 
 }
@@ -110,9 +113,11 @@
   margin-left: 5%;
 }
 #infobox{
-  margin: 0;
-  font-size: 14px;
-  padding-top: 2%;
+ margin-top: 7%;
+    margin-left: 8%;
+    padding-right: 0;
+    line-height: 2;
+    padding-top: 4.5%;
 
 
 }
