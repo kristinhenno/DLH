@@ -69,61 +69,74 @@
 #pub{
 	color:#555;
 }
-
-#pub1{
-	width:23%;
-	margin-right: 4%;
+#pub0{
+	width:22%;
+	margin-right: 3%;
 	margin-bottom: 1.5%;
-	margin-left: 12%;
+
+}
+#pub1{
+	width:22%;
+	margin-right: 3%;
+	margin-bottom: 1.5%;
 }
 
 #pub2{
-	width:23%;
-	margin-right: 4%;
+	width:22%;
+	margin-right: 3%;
 }
 
 #pub3{
-	width:23%;
-	margin-right: 4%;
+	width:22%;
+	margin-right: 3%;
 }
 
 
 #pub4{
-	width:23%;
-	margin-right: 4%;
+	width:22%;
+	margin-right: 3%;
 	margin-left: 12%;
 }
 
 #pub5{
-	width:23%;
+	width:22%;
 		margin-bottom: 0.3%;
-	margin-right: 4%;
+	margin-right: 3%;
 
 }
 
 #pub6{
-	width:23%;
+	width:22%;
 	margin-bottom: 0.3%;
 }
 
 #ca{
 	width:100%;
 	margin-top: 4%;
+	margin-left: 5%;
 }
 
 #food{
 	width:100%;
 	margin-top: 4%;
+	margin-left: 8%;
 }
 
 #huff{
 	width:100%;
-	margin-top: 4%;
+	margin-top: 3%;
+	margin-left: 10%;
 }
 
 #house{
 	width:100%;
-	margin-top: 11%;
+	margin-top: 7%;
+}
+
+#hb{
+	width:100%;
+	margin-top: 4%;
+
 }
 
 @media only screen and (max-width:550px) and (orientation: portrait) {
@@ -134,7 +147,13 @@
 	margin-left: 2%;
 	margin-top: 2%;
 }
-
+#pub0{
+	width:46%;
+	margin-right: 2.6%;
+	margin-bottom: 0%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
 #pub2{
 	margin-top: 2%;
 	width:46%;
@@ -169,10 +188,14 @@
 
 #huff{
 	width:100%;
-	margin-top: 10%;
 }
 
 #house{
+	width:100%;
+	margin-top: 10%;
+}
+
+#hb{
 	width:100%;
 	margin-top: 10%;
 }
@@ -206,6 +229,13 @@
     margin-left: 5%;
     margin-top: 3%;
     margin-bottom: 1%;
+  }
+
+  #pub0{
+  	width:90%;
+  	margin-left: 5%;
+  	 margin-bottom: 1%;
+  	 margin-top: 1%;
   }
   #pub1{
   	width:90%;
@@ -256,6 +286,14 @@
 	margin-top: 3%;
 }
 #house{
+	margin-top: 3%;
+}
+
+#hb{
+	margin-top: 3%;
+}
+
+#ca{
 	margin-top: 3%;
 }
 }
