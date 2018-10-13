@@ -2,6 +2,11 @@
 	color:#555;
 }
 
+.newtext{
+font-family: Effra-Light;
+  font-size:16px;
+}
+
 #contactpic{
 	width: 121%;
 	margin-top: 2.5%;
@@ -9,6 +14,10 @@
 
 #contactbox{
 	padding: 0;
+}
+
+#name1{
+letter-spacing: 6px;
 }
 
 #infobox{
@@ -62,11 +71,14 @@
 .socialmedia{
   width:30px;
   text-align: center;
+  margin: 0px 4px; 
+
 
   }
 
   #social{
     text-align: center;
+        margin-top: 12px;
   }
 
   p{

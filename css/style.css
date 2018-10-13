@@ -1,9 +1,8 @@
-
 #dlhtitle {
-width: 69%;
-  margin-top: -9px;
+    width: 69%;
+    margin-top: -2px;
     padding-top: 0;
-    margin-bottom: 1px;
+    margin-bottom: 6px;
 }
 
 @font-face {
@@ -14,6 +13,11 @@ width: 69%;
 @font-face {
     font-family: Verdana;
     src: url("../assets/font/Verdana.woff") format("opentype");
+}
+
+@font-face {
+    font-family: Effra;
+    src: url("../assets/font/Effra_std_rg.tff") format("opentype");
 }
 
 
@@ -61,13 +65,14 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .menuoption {
-  font-family: CarrigRough-Regular;
+font-family: Effra-Light;
+  font-size:12.5px;
     color: #808285;
-    font-size: 11px;
+  
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;
-    margin: 4.3% 0% 0.5% 3%;
+    margin: 6% 0% 0.5% 2%;
   letter-spacing: 2px;
     text-decoration: none;
 }
@@ -85,7 +90,7 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
     margin-bottom: -0.5%;
     display: inline-block;
-    margin: 5% 0% 0.5% 11%;
+    margin: 6% 0% 0.5% 11%;
     text-decoration: none;
 }
 
@@ -95,10 +100,10 @@ font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .menuoptionlast {
-  font-family: CarrigRough-Regular;
+font-family: Effra-Light;
+  font-size:12.5px;
     color: #808285;
     letter-spacing: 2px;
-    font-size: 11px;
     margin-top: 0.5%;
     margin-bottom: -0.5%;
     display: inline-block;

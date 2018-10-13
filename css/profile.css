@@ -32,42 +32,43 @@ padding-top: 4.5%;
 
 .aboutmetext2{
 padding-top: 0%;
-     font-family: Verdana;
+ font-family: Effra-Light;
+  font-size:14px;
   color: #808285;
-  font-size: 14px;
   display: inline-block;
   font-weight: lighter;
 color: #808285;
   line-height: 2.5;
-      font-size: 12px;
   color: #808285;
 }
 
 .affiliates{
-       font-size: 12px;
   color: #808285;
-  font-family: Verdana;
+font-family: Effra-Light;
+  font-size:14px;
   line-height: 2.5;
 
 }
 #list{
     padding-left: 0;
     margin-left: 3%;
+    font-family: Effra-Light;
+  font-size:14px;
 
 }
  #affilation{
- font-family: CarrigRough-Regular;
+font-family: Effra-Light;
   color:#808285;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
     font-size: 16px;
     line-height: 1.5;
         margin-top: 2%;
  }
 
  #principal{
- font-family: CarrigRough-Regular;
+font-family: Effra-Light;
     color: #808285;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
     font-size: 16px;
     line-height: 1.5;
         margin-top: 1.2%;
